@@ -1,0 +1,3 @@
+作業系統   Other Linux 3.x kernel 64-bit
+記憶體     768.0M
+網路       NAT

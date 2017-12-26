@@ -1,0 +1,7 @@
+linux4x-64
+efi
+memsize 1024
+bridged
+usb3
+scsi 0:0:hddPath/Lugia_host
+scsi 0:1:hddPath/Lugia_principal

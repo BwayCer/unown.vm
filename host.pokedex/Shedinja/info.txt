@@ -1,0 +1,8 @@
+作業系統   Other Linux 3.x kernel 64-bit
+韌體       UEFI
+記憶體     768.0M
+網路       NAT
+擴充卡     USB 3.0 支援
+
+=> SCSI 0:8 hddPath/hdd.pokedex/Shedinja.one.vmdk
+=> IDE 1:0 C:\Cer\share\Driver\OS Image\archlinux-2017.11.01-x86_64.iso

@@ -1,0 +1,5 @@
+linux3x-64
+efi
+usb3
+scsi 0:8:hddPath/Shedinja.one.vmdk
+ide 1:0:image:C:/Cer/share/Driver/OSimage/archlinux-2017.11.01-x86_64.iso

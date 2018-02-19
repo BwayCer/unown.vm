@@ -1,0 +1,10 @@
+作業系統   Other Linux 4.x kernel 64-bit
+韌體       UEFI
+處理器     4 核心
+記憶體     2.00G
+網路       NAT
+擴充卡     USB 3.0 支援
+
+=> SCSI 0:0 hddPath/Nosepass
+=> SCSI 0:1 hddPath/Togepi
+=> SCSI 0:2 hddPath/Taillow

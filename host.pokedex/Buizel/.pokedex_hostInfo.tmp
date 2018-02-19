@@ -1,0 +1,8 @@
+linux4x-64
+efi
+numvcpus 4
+memsize 2048
+usb3
+scsi 0:0:hddPath/Buizel-Nosepass.vmdk
+scsi 0:1:hddPath/Buizel-Togepi.vmdk
+scsi 0:2:hddPath/Buizel-Taillow.vmdk

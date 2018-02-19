@@ -1,0 +1,30 @@
+# Disk DescriptorFile
+version=1
+encoding="Big5"
+CID=ffffffff
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW   16384 SPARSE "../Taillow/vHDD/s001-g0008-GPT.vmdk"
+RW 8323072 SPARSE "../Taillow/vHDD/s002-g4064-home.vmdk"
+RW 8323072 SPARSE "../Taillow/vHDD/s003-g4064-home.vmdk"
+RW 8323072 SPARSE "../Taillow/vHDD/s004-g4064-home.vmdk"
+RW 8323072 SPARSE "../Taillow/vHDD/s005-g4064-home.vmdk"
+RW 8323072 SPARSE "../Taillow/vHDD/s006-g4064-home.vmdk"
+RW 8323072 SPARSE "../Taillow/vHDD/s007-g4064-home.vmdk"
+RW 8323072 SPARSE "../Taillow/vHDD/s008-g4064-home.vmdk"
+RW 8323072 SPARSE "../Taillow/vHDD/s009-g4064-home.vmdk"
+RW   16384 SPARSE "../Taillow/vHDD/s999-g0008-GPT.vmdk"
+
+# The Disk Data Base
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "32528"
+ddb.geometry.heads = "64"
+ddb.geometry.sectors = "32"
+ddb.longContentID = "ffffffffffffffffffffffffffffffff"
+ddb.uuid = "ff ff ff ff ff ff ff ff-ff ff ff ff ff ff ff ff"
+ddb.virtualHWVersion = "12"

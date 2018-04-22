@@ -1,0 +1,5 @@
+作業系統   Other Linux 4.x kernel 64-bit
+韌體       UEFI
+記憶體     768.0M
+網路       NAT
+擴充卡     USB 3.0 支援

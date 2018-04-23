@@ -1,0 +1,43 @@
+# Disk DescriptorFile
+version=1
+encoding="Big5"
+CID=ffffffff
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW   16384 SPARSE "../Nosepass/vHDD/s001-g0008-GPT.vmdk"
+RW   65536 SPARSE "../Nosepass/vHDD/s002-g0032-shelper.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s003-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s004-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s005-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s006-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s007-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s008-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s009-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s010-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s011-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s012-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s013-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s014-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s015-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s016-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s017-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s018-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s019-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s020-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s021-g0128-pacmanPkg.vmdk"
+RW  262144 SPARSE "../Nosepass/vHDD/s022-g0128-pacmanPkg.vmdk"
+RW   16384 SPARSE "../Nosepass/vHDD/s999-g0008-GPT.vmdk"
+
+# The Disk Data Base
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "2608"
+ddb.geometry.heads = "64"
+ddb.geometry.sectors = "32"
+ddb.longContentID = "ffffffffffffffffffffffffffffffff"
+ddb.uuid = "ff ff ff ff ff ff ff ff-ff ff ff ff ff ff ff ff"
+ddb.virtualHWVersion = "12"

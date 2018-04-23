@@ -5,5 +5,5 @@
 網路       NAT
 擴充卡     USB 3.0 支援
 
-=> SCSI 0:8 hddPath/hdd.pokedex/Shedinja.one.vmdk
+=> SCSI 0:8 hddPath/hdd.pokedex/Shedinja-Nosepass.vmdk
 => IDE 1:0 C:\Cer\share\Drive\OSimage\archlinux-2018.04.01-x86_64.iso

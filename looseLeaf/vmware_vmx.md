@@ -1,0 +1,249 @@
+虛擬機 .vmx 文件
+=======
+
+
+## 頁籤
+
+
+* [簡介](#簡介)
+* [參考](#參考)
+
+
+
+## 簡介
+
+
+筆者已知的 VMware `.vmx` 文件紀錄。
+
+
+
+## 程式資訊
+
+
+```
+.encoding = "Big5"
+config.version = "8"
+virtualHW.version = "12"
+virtualHW.productCompatibility = "hosted"
+```
+
+```
+displayName = "Shedinja"
+extendedConfigFile = ".vmxf"
+```
+
+
+
+### 空白
+
+
+```
+.encoding = "Big5"
+config.version = "8"
+virtualHW.version = "12"
+virtualHW.productCompatibility = "hosted"
+displayName = "Shedinja"
+extendedConfigFile = ".vmxf"
+guestOS = "other3xlinux-64"
+nvram = "vbios.nvram"
+firmware = "efi"
+vcpu.hotadd = "TRUE"
+memsize = "768"
+mem.hotadd = "TRUE"
+scsi0.present = "TRUE"
+scsi0.virtualDev = "lsilogic"
+ide1:0.present = "FALSE"
+usb.present = "FALSE"
+vmci0.present = "TRUE"
+hpet0.present = "TRUE"
+gui.exitOnCLIHLT = "FALSE"
+powerType.powerOff = "soft"
+powerType.powerOn = "soft"
+powerType.suspend = "soft"
+powerType.reset = "soft"
+softPowerOff = "FALSE"
+checkpoint.vmState = ""
+floppy0.present = "FALSE"
+ethernet0.present = "FALSE"
+sound.present = "FALSE"
+```
+
+
+
+
+
+
+## 作業系統類別
+
+
+```
+guestOS = "other3xlinux-64"
+```
+
+
+## 基本輸入輸出系統
+
+
+```
+nvram = "vbios.nvram"
+```
+
+```
+firmware = "efi"
+```
+
+
+
+## 記憶體
+
+
+```
+memsize = "768"
+mem.hotadd = "TRUE"
+```
+
+
+
+## 小型電腦系統介面
+
+
+小型電腦系統介面計有 0,1,2,3 共 4 組，
+每組 0-15 共 15 個， 每組中的第 7 個為保留。
+
+
+```
+scsi0.present = "TRUE"
+scsi0.virtualDev = "lsilogic"
+scsi0:0.present = "FALSE"
+scsi0:0.fileName = ""
+scsi0:1.present = "TRUE"
+scsi0:1.fileName = "vhdd.vmdk"
+```
+
+
+
+## 網路
+
+
+```
+ethernet0.present = "TRUE"
+ethernet0.connectionType = "nat"
+ethernet0.virtualDev = "e1000"
+ethernet0.wakeOnPcktRcv = "FALSE"
+ethernet0.addressType = "generated"
+```
+
+
+
+## 通用序列匯流排
+
+
+**關閉：**
+
+```
+usb.present = "FALSE"
+```
+
+
+**USB 2.0：**
+
+```
+usb.present = "TRUE"
+usb.generic.autoconnect = "FALSE"
+ehci.present = "TRUE"
+usb_xhci.present = "TRUE"
+```
+
+
+**USB 3.0：**
+
+```
+usb.present = "TRUE"
+usb.generic.autoconnect = "FALSE"
+ehci.present = "TRUE"
+usb_xhci.present = "TRUE"
+```
+
+
+
+## 聲音
+
+
+```
+sound.present = "TRUE"
+sound.fileName = "-1"
+sound.autodetect = "TRUE"
+```
+
+
+
+## 集成設備電路
+
+
+**關閉：**
+
+```
+ide1:0.present = "FALSE"
+```
+
+```
+ide1:0.present = "TRUE"
+ide1:0.autodetect = "TRUE"
+ide1:0.deviceType = "cdrom-image"
+ide1:0.startConnected = "TRUE"
+ide1:0.fileName = "C:\Cer\share\Driver\OS Image\archlinux-2017.11.01-x86_64.iso"
+```
+
+
+
+## 軟碟機
+
+
+**關閉：**
+
+```
+floppy0.present = "FALSE"
+```
+
+
+
+## 未知必要
+
+
+```
+vcpu.hotadd = "TRUE"
+```
+
+```
+pciBridge0.present = "TRUE"
+pciBridge4.present = "TRUE"
+pciBridge4.virtualDev = "pcieRootPort"
+pciBridge4.functions = "8"
+pciBridge5.present = "TRUE"
+pciBridge5.virtualDev = "pcieRootPort"
+pciBridge5.functions = "8"
+pciBridge6.present = "TRUE"
+pciBridge6.virtualDev = "pcieRootPort"
+pciBridge6.functions = "8"
+pciBridge7.present = "TRUE"
+pciBridge7.virtualDev = "pcieRootPort"
+pciBridge7.functions = "8"
+vmci0.present = "TRUE"
+hpet0.present = "TRUE"
+gui.exitOnCLIHLT = "FALSE"
+powerType.powerOff = "soft"
+powerType.powerOn = "soft"
+powerType.suspend = "soft"
+powerType.reset = "soft"
+softPowerOff = "FALSE"
+checkpoint.vmState = ""
+```
+
+
+
+## 參考
+
+
+* [VMware文件辨别 - 杰迪武士的日志](http://lijiwei19850620.blog.163.com/blog/static/97841538201111903625705/)
+* [VMWare Player with UEFI - Gulivert's Blog](https://blog.gulivert.ch/vmware-player-with-uefi-bios/)
+

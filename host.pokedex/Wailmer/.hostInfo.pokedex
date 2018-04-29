@@ -1,0 +1,7 @@
+win10-64
+efi
+efiLegacyBoot
+memsize 2048
+usb3
+3D
+scsi 0:0:hddPath/hdd.pokedex/Wailmer-Munchlax.vmdk
